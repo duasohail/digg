@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,160 @@
   to {
     transform: rotate(360deg);
   }
+}
+.form-control{
+  background:#EFEFEF;
+  color:141212;
+  font-family: 'Sora', sans-serif;
+  font-weight:200;
+  font-size: 12px;
+  padding:24px 10px;
+  outline: none;
+  border:none;
+}
+
+.heading2{
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  font-family: 'Sora';
+  font-weight: 400
+}
+.heading1 {
+  font-family: 'Sora';
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.customInput input, .customInput select{
+  flex:0 0 48%;
+}
+
+.gender{
+  font-family: Sora;
+  font-size:10px;
+  font-weight: 400;
+}
+
+.customcol{
+  flex:0 0 48%;
+}
+
+.next{
+  font-family: 'Sora';
+    border: none;
+    font-weight: 200;
+    font-size: 14px;
+    padding: 14px 50px;
+    border-radius: 30px;
+    background: linear-gradient(0.25turn, #4734E1, #8E27EA);
+    color: #fff;
+}
+.progress-bar{
+  width: 10%;
+}
+.progress{
+  width: 95%;
+  height: 10px;
+  margin-top: 35px;
+}
+.text1{
+  font-family: sora;
+  font-weight: normal;
+  color: #141212;
+}
+.bttn{
+  background-color: #EFEFEF;
+  outline: none;
+  border: none;
+  padding: 14px 60px ;
+  border-radius: 30px;
+  font-family: sora;
+  font-weight: 200;
+  font-size: 12;
+
+}
+.bttn3{
+  background-color: #EFEFEF;
+  outline: none;
+  border: none;
+  padding: 14px 40px ;
+  border-radius: 30px;
+  font-family: sora;
+  font-weight: 200;
+  font-size: 12;
+
+}
+.backbtnPg2{
+  background-color: #EFEFEF;
+  outline: none;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 30px;
+  font-family: sora;
+  font-weight: 200;
+  font-size: 14;
+}
+.nextbtnPg2{
+  background: linear-gradient(0.25turn, #4734E1, #8E27EA);
+  color: #fff;
+  padding: 14px 40px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-family: sora;
+  font-weight: 200;
+  font-size: 14;
+}
+.backform1{
+  height: 635px;
+  background-image: url('./assets/img/form1.png');
+  background-size:100% 635px;
+}
+.backForm2{
+  height: 635px;
+  background-image: url('./assets/img/form2.png');
+  background-size:100% 635px;
+}
+.backForm3{
+  height: 635px;
+  background-image: url('./assets/img/form3.png');
+  background-size:100% 635px;
+}
+.backForm4{
+  height: 635px;
+  background-image: url('./assets/img/form4.png');
+  background-size:100% 635px;
+}
+.customdiv{
+  margin-left: 55px;
+  width: 480px;
+}
+.qout{
+  color: #fff;
+  font-size: 11px;
+  font-family: sora;
+  font-weight: 200;
+}
+.afterqout{
+  font-family: sora;
+  font-size: 14px;
+  font-weight: 400;
+  color:#fff;
+  margin-left: 55px;
+  margin-top: 30px;
+}
+.yes1{
+  background-image: url('./assets/img/thumbsup.png');
+  background-repeat: no-repeat;
+  background-position: center left 40px;
+  background-size: 16px;
+ 
+}
+.no1{
+  background-image: url('./assets/img/thumbsdown.png');
+  background-repeat: no-repeat;
+  background-position: center left 40px;
+  background-size: 16px;
+ 
 }
