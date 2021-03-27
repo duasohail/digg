@@ -1,3 +1,6 @@
+To run this project run command npm install to inatall all dependencies which use in project 
+then simply run npm start command 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
